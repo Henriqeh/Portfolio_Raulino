@@ -1,0 +1,25 @@
+.fundo{
+    width:100%;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+        width:40%;
+        height: 80%;
+        h1{
+            font-size: 3em; 
+            color: rgb(154, 107, 241)
+        }
+        p{
+            font-size: 1.5em;
+           
+        }
+    }
+    figure{
+        height: 80%;
+        img{
+            height:100%;
+        }
+    }
+}
