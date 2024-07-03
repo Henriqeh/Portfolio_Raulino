@@ -7,6 +7,9 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { MenuComponent } from './pages/portfolio/menu/menu.component';
 import { CabecalhoComponent } from './pages/portfolio/cabecalho/cabecalho.component';
 import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
+import { ProjetoComponent } from './pages/portfolio/projeto/projeto.component';
+import { GridDisplayComponent } from './grid-display/grid-display.component';
+import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
     PortfolioComponent,
     MenuComponent,
     CabecalhoComponent,
-    SobreComponent
+    SobreComponent,
+    ProjetoComponent,
+    GridDisplayComponent,
+    PiadasComponent
   ],
   imports: [
     BrowserModule,

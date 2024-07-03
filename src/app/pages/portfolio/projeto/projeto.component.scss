@@ -1,0 +1,30 @@
+.Projetos{
+    width: 100%;
+    height: fit-content;
+    border:5px #9f79e6 solid;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.grid-item {
+    height: 500px;
+    padding: 10px;
+    border: 3px solid rgb(157, 98, 224);
+    text-align: center;
+}
+
+.grid-item img {
+    height: 50%; /* A altura será ajustada automaticamente para manter a proporção */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da célula */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da célula */
+}
