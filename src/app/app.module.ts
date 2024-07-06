@@ -10,6 +10,7 @@ import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
 import { ProjetoComponent } from './pages/portfolio/projeto/projeto.component';
 import { GridDisplayComponent } from './grid-display/grid-display.component';
 import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
